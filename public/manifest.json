@@ -14,6 +14,6 @@
       "128":"pk1.png"
     }
   },
-  "permissions":["tabs","<all_urls>"]
+  "permissions":["tabs"]
 
 }
