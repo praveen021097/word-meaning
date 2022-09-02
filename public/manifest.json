@@ -1,0 +1,19 @@
+{
+  "manifest_version":3,
+  "name":"Vocabulary Search",
+  "author":"Praveen",
+  "version":"1.0",
+  "description":"search word ",
+  
+  "action":{
+    "default_title":"Vacabulary Search",
+    "default_popup":"index.html",
+    "default_icon":{
+      "16":"pk1.png",
+      "32":"pk2.png",
+      "128":"pk3.ico"
+    }
+  },
+  "permissions":["tabs","<all_urls>"]
+
+}
