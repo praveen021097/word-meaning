@@ -14,6 +14,6 @@
       "128":"pk3.ico"
     }
   },
-  "permissions":["tabs","<all_urls>"]
+  "permissions":["tabs"]
 
 }
