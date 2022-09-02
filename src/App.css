@@ -1,5 +1,8 @@
 .App {
   text-align: center;
+  background-color: black;
+  padding: 30px;
+  border-radius: 8px;
 }
 
 .App-logo {
@@ -35,4 +38,100 @@
   to {
     transform: rotate(360deg);
   }
+}
+.main{
+  text-align: left;
+  background-color: #0340a6;
+  color: white;
+  border-radius: 8px;
+  padding: 10px;
+}
+h1{
+  font-family: 'Montserrat', sans-serif;
+
+}
+.main1{
+  display: flex;
+}
+
+h4,h2{
+  font-family: 'Montserrat', sans-serif;
+  margin-left: 20px;
+}
+h3{
+  font-family: 'Montserrat', sans-serif;
+font-weight: bold;
+color: #0340a6;
+}
+.search{
+  margin-left: 20px;
+  height: 30px;
+  padding: 5px;
+  border-radius: 30%px;
+  border: 1px solid grey;
+  cursor: pointer;
+  border-radius: 10%;
+
+}
+input{
+  height: 30px;
+  width: 300px;
+  padding: 5px;
+  outline: none;
+  border: 1px solid grey;
+  font-family: 'Poppins', sans-serif; 
+  border-radius: 8px;
+  color: black;
+  font-weight: bold;
+  font-size: 18px;
+
+}
+.div1{
+  justify-content: space-between;
+  border-radius: 5px;
+  background-color: #e8ecf6;
+  padding: 10px;
+  margin-top: 20px;
+}
+.voice{
+  width: 60px;
+  margin-right: 10px;
+  border-radius: 70%;
+  cursor: pointer;
+}
+.div2,.div4{
+  border-radius: 5px;
+  background-color: #c3d5f2;
+  margin-top:10px;
+  padding: 10px;
+}
+
+.div3{
+  border-radius: 5px;
+  background-color: #7393d2;
+  margin-top: 10px;
+  padding: 10px;
+}
+.div5{
+  border-radius: 5px;
+  background-color: #e8ecf6;
+  padding: 10px;
+}
+
+.div1:hover{
+  background-color: #31c3c5;
+  color: white;
+}.div2:hover{
+  background-color: #31c3c5;
+  color: white;
+}.div3:hover{
+  background-color: #31c3c5;
+  color: white;
+}
+.div4:hover{
+  background-color: #31c3c5;
+  color: white;
+}.div5:hover{
+  background-color: #31c3c5;
+  color: white;
 }
