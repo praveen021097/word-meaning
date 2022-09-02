@@ -1,8 +1,10 @@
 .App {
   text-align: center;
-  background-color: black;
+  background-color: rgba(132, 209, 237, 0.734);
   padding: 30px;
   border-radius: 8px;
+  margin: 0;
+  
 }
 
 .App-logo {
@@ -31,17 +33,10 @@
   color: #61dafb;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
+
 .main{
   text-align: left;
-  background-color: #0340a6;
+  background-color: #20d7e4;
   color: white;
   border-radius: 8px;
   padding: 10px;
@@ -54,14 +49,20 @@ h1{
   display: flex;
 }
 
-h4,h2{
+h4{
   font-family: 'Montserrat', sans-serif;
   margin-left: 20px;
+  color: rgb(1, 4, 35);
+}
+h2{
+  font-family: 'Montserrat', sans-serif;
+  margin-left: 20px;
+  color: rgb(33, 33, 33);
 }
 h3{
   font-family: 'Montserrat', sans-serif;
 font-weight: bold;
-color: #0340a6;
+color: #090707;
 }
 .search{
   margin-left: 20px;
@@ -81,7 +82,7 @@ input{
   border: 1px solid grey;
   font-family: 'Poppins', sans-serif; 
   border-radius: 8px;
-  color: black;
+  color: red;
   font-weight: bold;
   font-size: 18px;
 
@@ -89,7 +90,7 @@ input{
 .div1{
   justify-content: space-between;
   border-radius: 5px;
-  background-color: #e8ecf6;
+  /* background-color: #e8ecf6; */
   padding: 10px;
   margin-top: 20px;
 }
@@ -101,25 +102,25 @@ input{
 }
 .div2,.div4{
   border-radius: 5px;
-  background-color: #c3d5f2;
+  /* background-color: #c3d5f2; */
   margin-top:10px;
   padding: 10px;
 }
 
 .div3{
   border-radius: 5px;
-  background-color: #7393d2;
+  /* background-color: #7393d2; */
   margin-top: 10px;
   padding: 10px;
 }
 .div5{
   border-radius: 5px;
-  background-color: #e8ecf6;
+  /* background-color: #f5c9c9; */
   padding: 10px;
 }
 
 .div1:hover{
-  background-color: #31c3c5;
+  background-color: #526d6d;
   color: white;
 }.div2:hover{
   background-color: #31c3c5;
