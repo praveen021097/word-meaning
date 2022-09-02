@@ -81,11 +81,11 @@ audio.play();
        </div>
      {wData && (<div>
       
-        <div className='div1' style={{width:"97%",margin:"auto",textAlign:"left",display:"flex"}}><h2> Word : {"  "}{wData.word}{" "} ({hindi})</h2><div onClick={playAudio}><img className='voice' src="https://cdn.pixabay.com/photo/2017/01/10/03/54/icon-1968243_1280.png"/></div></div>
-         <div className='div2' style={{width:"97%",margin:"auto",textAlign:"left",display:"flex"}}><h3>Definition {" "} </h3><h4 style={{fontWeight:"bold"}}>{wData.meanings[0].definitions[0].definition}</h4></div>
-       <div className='div3' style={{width:"97%",margin:"auto",textAlign:"left",display:"flex"}}><h3>Antonyms {" "} </h3><h4>{wData.meanings[0].antonyms[0]}</h4></div>
-       <div className='div4' style={{width:"97%",margin:"auto",textAlign:"left",display:"flex"}} ><h3>Synonyms {" "}</h3><h4> {wData.meanings[0].synonyms[0]},{wData.meanings[0].synonyms[1]},{wData.meanings[0].synonyms[2]} </h4></div>
-       <div className='div5' style={{width:"97%",margin:"auto",textAlign:"left",display:"flex"}}><h3>Part Of Speech{" "} </h3><h4>{wData.meanings[0].partOfSpeech}</h4></div>
+      <div className='div1' style={{width:"97%",margin:"auto",textAlign:"left",display:"flex"}}><h2> Word : {"  "}{wData.word}{" "} ({hindi})</h2><div onClick={playAudio}><img className='voice' src="https://cdn.pixabay.com/photo/2017/01/10/03/54/icon-1968243_1280.png"/></div></div>
+      <div className='div2' style={{width:"97%",margin:"auto",textAlign:"left",display:"flex"}}><h3>Definition {" "} </h3><h3 style={{fontWeight:"bold",marginLeft:"20px"}}>{wData.meanings[0].definitions[0].definition}</h3></div>
+      <div className='div3' style={{width:"97%",margin:"auto",textAlign:"left",display:"flex"}}><h3>Antonyms {" "} </h3><h3 style={{fontWeight:"bold",marginLeft:"20px"}}>{wData.meanings[0].antonyms[0]}</h3></div>
+      <div className='div4' style={{width:"97%",margin:"auto",textAlign:"left",display:"flex"}} ><h3>Synonyms {" "}</h3><h3 style={{fontWeight:"bold",marginLeft:"20px"}}> {wData.meanings[0].synonyms[0]},{wData.meanings[0].synonyms[1]},{wData.meanings[0].synonyms[2]} </h3></div>
+      <div className='div5' style={{width:"97%",margin:"auto",textAlign:"left",display:"flex"}}><h3>Part Of Speech{" "} </h3><h3 style={{fontWeight:"bold",marginLeft:"20px"}}>{wData.meanings[0].partOfSpeech}</h3></div>
     
     
       

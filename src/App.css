@@ -51,7 +51,7 @@ h1{
 
 h4{
   font-family: 'Montserrat', sans-serif;
-  margin-left: 20px;
+  margin-left: 25px;
   color: rgb(1, 4, 35);
 }
 h2{
@@ -61,8 +61,9 @@ h2{
 }
 h3{
   font-family: 'Montserrat', sans-serif;
-font-weight: bold;
-color: #090707;
+
+font-weight:bold;
+  color: rgb(10, 10, 10);
 }
 .search{
   margin-left: 20px;
@@ -109,13 +110,13 @@ input{
 
 .div3{
   border-radius: 5px;
-  /* background-color: #7393d2; */
+  background-color: #7393d2;
   margin-top: 10px;
   padding: 10px;
 }
 .div5{
   border-radius: 5px;
-  /* background-color: #f5c9c9; */
+  background-color: #f5c9c9;
   padding: 10px;
 }
 
@@ -134,5 +135,8 @@ input{
   color: white;
 }.div5:hover{
   background-color: #31c3c5;
+  color: white;
+}
+h4:hover{
   color: white;
 }
